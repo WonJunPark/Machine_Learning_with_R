@@ -1,0 +1,51 @@
+HI
+hello
+"hi"
+"hello"
+install.packages("gmodels")
+setwd("C:/Users/dnjsw_000/Desktop/R스터디/Machine Learning with R (1st Ed.)/Chapter 02")
+usedcars<-read/csv("usedcars.csv",stringsAsFactors=FALSE)
+usedcars<-read.csv("usedcars.csv",stringsAsFactors=FALSE)
+CrossTable(x=usedcars$model, y=usedcars$conservative)
+usedcar$conservative<-usedcars$color%in%c("Black","Gray","Silver","White")
+load("C:/Users/dnjsw_000/Documents/R/win-library/3.5/arules/data/Adult.rda")
+usedcar$conservative<-usedcars$color%in%c("Black","Gray","Silver","White")
+CrossTable(x = usedcars$model, y = usedcars$conservative)
+var(usedcars$price)
+sd(usedcars$price)
+var(usedcars$mileage)
+sd(usedcars$mileage)
+table(usedcars$year)
+table(usedcars$model)
+table(usedcars$color)
+model_table <- table(usedcars$model)
+prop.table(model_table)
+color_table <- table(usedcars$color)
+color_pct <- prop.table(color_table) * 100
+round(color_pct, digits = 1)
+plot(x = usedcars$mileage, y = usedcars$price,
+main = "Scatterplot of Price vs. Mileage",
+xlab = "Used Car Odometer (mi.)",
+ylab = "Used Car Price ($)")
+usedcars$conservative <-
+usedcars$color %in% c("Black", "Gray", "Silver", "White")
+table(usedcars$conservative)
+CrossTable(x = usedcars$model, y = usedcars$conservative)
+CrossTable(x = usedcars$model, y = usedcars$conservative)
+install.packages("CrossTable")
+install.packages(“gmodels”)
+install.packages("gmodels")
+CrossTable(x = usedcars$model, y = usedcars$conservative)
+install.packages ("gmodels")
+install.packages("MASS")
+install.packages("MASS") library (gmodels)
+library (MASS)
+install.packages ("gmodels"); install.packages("MASS") library (gmodels); library (MASS)
+CrossTable(dat$PopSize, dat$PCIncChange, fisher = TRUE, chisq = TRUE) expected = TRUE, sresid = TRUE, format="SPSS")
+sessionInfo(): R version 2.15.2 (2012-10-26) Platform: x86_64-w64-mingw32/x64 (64-bit) locale: [1] LC_COLLATE=English_United States.1252 LC_CTYPE=English_United States.1252 [3] LC_MONETARY=English_United States.1252; LC_NUMERIC=C [5] LC_TIME=English_United States.1252 attached base packages: [1] splines stats graphics grDevices utils datasets methods base – other attached packages: [1] MASS_7.3-23 gmodels_2.15.3 Hmisc_3.10-1 survival_2.36-14 stringr_0.6.2 loaded via a namespace (and not attached): [1] cluster_1.14.3 gdata_2.12.0 grid_2.15.2 gtools_2.7.0 lattice_0.20-10 tools_2.15.2 .
+CrossTable(x = usedcars$model, y = usedcars$conservative)
+install.packages ("gmodels"); install.packages("MASS") library (gmodels); library (MASS)
+CrossTable(dat$PopSize, dat$PCIncChange, fisher = TRUE, chisq = TRUE) expected = TRUE, sresid = TRUE, format="SPSS")
+CrossTable(x = usedcars$model, y = usedcars$conservative)
+CrossTable(x = usedcars$model, y = usedcars$conservative)
+CrossTable(x = usedcars$model, y = usedcars$conservative)

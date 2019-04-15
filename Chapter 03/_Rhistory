@@ -1,0 +1,49 @@
+HI
+hello
+"hi"
+"hello"
+subject_name<-c("John Doe","Jane Doe","Steve Graves")
+temperature<-c(98.1 , 98.6 , 101.4)
+flu_status <-c(FALSE, FALSE, TRUE)
+temperature[2]
+temperature[2:3]
+temperature[-2]
+temperature[c(TRUE,TRUE,FALSE)]
+gecder<-factor(c("MALE","FEMALE","MALE"))
+gender
+gecder
+blood<-factor(c("O","AB","A"),levels=c("A","B","AB","O"))
+blood[1:2]
+symptoms<-factors(c("SEVERE","MILD","MODERATE"),levels=c("MILD","MODERATE,"SEVERE"),ordered =TRUE)
+SYMPTOMS<-factor(c("severe","mild","moderate"),levels = c("mild","moderate","severe"),ordered=TRUE)
+syptoms
+SYMPTOMS
+SYMPTOMS>"MODERATE"
+subject_name[1]
+subject1<-list(fullname = sbject_name[1], )
+subject1<-list(fullname=subject_name[1], temperature= temperature[1],flu_status = flu_status[1],gender = gender[1],blood = blood[1],SYMPTOMS=SYMPTOMS[1])
+subject1<-list(fullname=subject_name[1], temperature= temperature[1],flu_status = flu_status[1],gender = gecder[1],blood = blood[1],SYMPTOMS=SYMPTOMS[1])
+gecder
+subject1[2]
+pt_data <-data.frame(subject_name,temperature, flu_status,gecder,blood,SYMPTOMS,stringsAsFactors = FALSE)
+getwd1
+getwd()
+setwd(C:/Users/dnjsw_000/Desktop/R스터디/3,4장/Machine Learning with R (1st Ed.))
+setwd("C:\Users\dnjsw_000\Desktop\R스터디\3,4장\Machine Learning with R (1st Ed.)")
+setwd("C:/Users/dnjsw_000/Desktop/R스터디/3,4장/Machine Learning with R (1st Ed.)")
+str(wdcd)
+setwd("C:/Users/dnjsw_000/Desktop/R스터디/3,4장/Machine Learning with R (1st Ed.)/Chapter 03")
+str(wdcd)
+install.packages("gmaodels")
+install.packages("arules")
+library(arules)
+groceries = read.transactions("C:/Users/dnjsw_000/Desktop/R스터디/Machine Learning with R (1st Ed.)/Chapter 08/groceries.csv", sep = ",")
+groceries
+setwd("C:/Users/dnjsw_000/Desktop/R스터디/Machine Learning with R (1st Ed.)/Chapter 03/wisc_bc_data")
+setwd("C:/Users/dnjsw_000/Desktop/R스터디/Machine Learning with R (1st Ed.)/Chapter 03/wisc_bc_data.csv")
+setwd("C:/Users/dnjsw_000/Desktop/R스터디/Machine Learning with R (1st Ed.)/Chapter 03")
+wbcd<-read.csv("wisc_bc_data.csv",stringsAsFactors = FALSE)
+View(subject1)
+str(wbcd)
+install.packages("class")
+getwd()
